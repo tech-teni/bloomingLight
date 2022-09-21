@@ -108,10 +108,10 @@
   }
 }
 
-.navbar-light .navbar-brand,
+/* .navbar-light .navbar-brand,
 .navbar-light a.btn {
   height: 75px;
-}
+} */
 
 .navbar-light .navbar-nav .nav-link {
   color: var(--dark);
@@ -454,6 +454,9 @@
 .footer p {
   font-size: 20px;
 }
+.full-nav {
+  background-color: #3939c8;
+}
 
 .top-nav {
   width: 100%;
@@ -463,8 +466,8 @@
   font-size: 18px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding-left: 20%;
+  justify-content: space-between;
+  padding-left: 0;
 }
 .top-nav span {
   margin-left: 10px;
